@@ -70,4 +70,66 @@ edu %>%
 
 ```
 
+# Skills
 
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+```
+
+# Honors
+
+```{r HONORS}
+honors %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+# Projects
+
+```{r PROJECTS}
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+# Works
+
+```{r WORKS}
+works %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+\pagebreak
+
+# Certifications
+
+```{r CERTIFICATIONS}
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
