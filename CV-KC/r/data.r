@@ -1,21 +1,14 @@
-projects <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Lean Six Sigma Green Belt --- Reception Center Intake Process", "California Correctional Health Care Services", 2019, "Region 1 Quality Management", "Completed a Lean Six Sigma Green Belt project on the reception center medical screening process at San Quentin State Prison improving compliance from 2% and a baseline capability aggregate of 29.96% compliance to 84% during the transition phase of the project through application of the lean 6 methodologies and tools. Scope of project affects 6 total state prisons with 3 more to be positively impacted by state wide changes resulting from this project",
-  "Universal Data Scrubber", "California Correctional Health Care Services", 2018, "Region 1 Quality Management", "Creation of a Universal Data Scrubbing tool sent statewide to take most department SQL Report Server exports and turn them into raw data sets for Excel Analytics for end user staff"
-)
 
 certifications <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Certified Lean Six Sigma Green Belt", NA, "", "", NA,
-  "Certified Lean Six Sigma White Belt", NA, "", "", NA,
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Excel - 112",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Word - 22",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Outlook - 21",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Power Point - 18",
-  "Microsoft Software", "Various Applications", "", "", "Share Point - 9",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Project - 6",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Access - 3",
-  "Microsoft Software", "Various Applications", "", "", "Microsoft Power BI - 3"
+  "Inter-American Development Bank", "Change Management in Organizations", "2022",
+  "INDES", NA,
+  "LinkedIn Learning", "Develop your project management skills", "2022",
+  "Linkedin", NA,
+  "LinkedIn Learning", "Learn Microsoft Dynamics 365 Finance", "2022",
+  "Linkedin", NA,
+  "H&CO Advisors", "Opening my Future with SAP Business One", "2021",
+  "Linkedin", NA,
 )
 
 skills <- tribble(
@@ -37,29 +30,31 @@ honors <- tribble(
 
 edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-  "Western Governors University", 2020, NA, "Bachelors Data Analytics & Data Management", "Online",NA,
-  "American Council on Education - Statistics.com", 2019, 2019, "Statistics I & II", "Online",NA,
-  "Cosumnes River College", 2012, 2015, "Associate of Art (A.A.) Physical Education Teaching and Coaching", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-  "Cosumnes River College", 2012, 2015, "Associate of Science (A.S.) Liberal Arts: Math and Science", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-  "San Joaquin Delta College", 2011, 2011, "Pre-Calculus", "Stockton - California",NA,
-  "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP English Literature",
-  "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP US Government"
+  "Rafael Landívar Unversity", 2019, 2021, "Master's in Finance", "Quetzaltenago-Guatemala",NA,
+  "Rafael Landívar Unversity", 2015, 20219, "Bachelor Of Public Accounting and Auditing", "Quetzaltenango-Guatemala","Magna Cum Laude",
+  "Colegio De La Salle", 2012, 2014, "Expert Accountant with Computer Orientation", "Huehuetenango-Guatemala",NA,
+ 
 )
 
 work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Consulting" ,"Finance | Audit | Accounting","January",   2022, "Present", NA, "Quetzaltenango - Guatemala"," ",
-  "Data analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala"," ",
-  "Data analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala", "Reports --- Reporte semanal, de metas Trimestral, y Anual",
-  "Data analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
-  "Data analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
-  "Data analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
+  "Finance | Audit | Accounting| Tax" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Finance      --- Financial Advisor ( Financial Statement Analysis, Financial Strategy, Analysis and Evaluation of Projects, CAPM, Investment Portfolio)",
+  "Finance | Audit | Accounting| Tax" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Audit        ---Independent Audit (External Audit, Specific Purpose Audit, Audit Advice for External Audit) ",
+  "Finance | Audit | Accounting| Tax" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Accounting   --- Complete Accounting",
+  "Finance | Audit | Accounting| Tax" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Tax          --- Tax Advice & Declaration",
   
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Preparation and distribution of Reports --- Weeekly reports of quarterly and annual metrics for contractual and process goals",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Insight Analytics --- Review and extracion of knowlodge in database, create specif repots with Rmarkdown in R",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Data entry and consolitation --- Receipt and consolitación of biweekly data and entry of partnership forms",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Document archiving --- Archive indicator support documents",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Main Tools --- R, Tidyverse, Rmarkdown, Rstudio, Excel, Google Sheet, PowerPoint, Github ",
 )
-
-works <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Author and Maintainer",
-  "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN",
-)
-

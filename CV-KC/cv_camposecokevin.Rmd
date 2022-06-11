@@ -93,34 +93,6 @@ honors %>%
   )
 ```
 
-# Projects
-
-```{r PROJECTS}
-projects %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
-
-# Works
-
-```{r WORKS}
-works %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
-
-\pagebreak
-
 # Certifications
 
 ```{r CERTIFICATIONS}
