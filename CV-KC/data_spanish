@@ -1,0 +1,180 @@
+certifications <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "Banco Interamericano de Desarrollo", "Gestión del cambio en las organizaciones-INDES", "2022",
+  "Linkedin", NA,
+  "LinkedIn Learning", "Desarrollar sus habilidades de gestión de proyectos", "2022",
+  "Linkedin", NA,
+  "LinkedIn Learning", "Conozca Microsoft Dynamics 365 Finance", "2022",
+  "Linkedin", NA,
+  "H&CO Advisors", "Abriendo mi futuro con SAP Business One", "2021", NA, NA,
+)
+
+skills<- tribble(
+  ~area, ~skills, ~detail,
+  "Finanzas","Asesor Financiero","Análisis de Estados Financieros",
+  "Finanzas","Asesor Financiero","Estrategia Financiera",
+  "Finanzas","Asesor Financiero","Análisis y Evaluación de Proyectos",
+  "Finanzas","Asesor Financiero","Modelo CAPM",
+  "Finanzas","Asesor Financiero","Análisis y diseño de carteras de inversión",
+  
+  "Auditoría","Auditor Independientes","Preplanificación",
+  "Auditoría","Auditor Independientes","Planificación",
+  "Auditoría","Auditor Independientes","Diseño y Ejecución",
+  "Auditoría","Auditor Independientes","Finalización e Informe",
+  
+  "Contabilidad","Contabilidad Completa","Apertura",
+  "Contabilidad","Contabilidad Completa","Desarrollo",
+  "Contabilidad","Contabilidad Completa","Cierre",
+  
+  "Impuestos","Asesor Fiscal","Pequeños Contribuyente",
+  "Impuestos","Asesor Fiscal","Contribuyente Normal",
+  
+  "ERP","Área Finaciera", "SAP Bussines One (Fundamental)",
+  "ERP","Área Financiera", " Dynamics 365 (Fundamental)",
+  
+  "Lenguaje de Programación","Ciencia de Datos", "R, Rstudio, Tidyverse, Rmarkdown,Github",
+  "Data Viz","Visualización de Datos", "Power BI, Tablaeu, Google Data Studio, Shiny",
+  
+  "Microsoft Office","Packages" ,"Excel, PowerPoint, Word, Outlook, OneNote",
+  
+  "GSuit","Google Workspace","Mail, Meet, Doc, Sheet, Slide, Google Space, Calendar, Formularios ",
+  
+  "Notion","Gestión de proyectos y toma de notas","Plantillas de gestión de proyectos, Notas,Productividad ",
+  
+  
+)
+Language <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "Idioma", "Españo", "Alto", NA ,NA,
+  NA, "Inglés", "Intermedio",NA ,NA,
+)
+
+Members <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "Colegio de Contadores Públicos y Auditores", "Miembro Activo NO. 11954", "2019->2022", "Guatemala" ,NA,
+  "Auditool", "Suscrito", "2021->2022" ,"Colombia" ,NA,
+)
+
+edu <- tribble(
+  ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
+  "Universidad Rafael Landívar", 2019, 2021, "Maestría en Finanzas", "Quetzaltenago-Guatemala",NA,
+  "Universidad Rafael Landívar", 2015, 2019, "Contaduría Pública y Auditoría", "Quetzaltenango-Guatemala",
+  "Magna Cum Laude",
+  "Colegio De La Salle", 2012, 2014, "Perito Contador con Orientación en Computación", "Huehuetenango-Guatemala",NA,
+  
+)
+
+work <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Finanzas      --- Asesor Financiero",
+  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Auditoría        ---Auditor Independiente ",
+  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Contabilidad   --- Contabilidad Completa",
+  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Impuestos          --- Asesor Fiscal",
+  
+  "Analisis de Datos", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales contractuales y de procesos",
+  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Conocimiento en los Datos --- Review and extracion of knowlodge in database, create specif repots with Rmarkdown in R",
+  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Entrada y consolidación de datos- Entrada y consolidación quincenal de datos y entrada de formularios de asociación",
+  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Archivo de documentos - Archivo de documentos para apoyar los indicadores",
+  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Herramienas Principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
+)
+---------------
+versión English
+
+certifications <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "Inter-American Development Bank", "Change Management in Organizations-INDES", "2022",
+  "Linkedin", NA,
+  "LinkedIn Learning", "Develop your project management skills", "2022",
+  "Linkedin", NA,
+  "LinkedIn Learning", "Learn Microsoft Dynamics 365 Finance", "2022",
+  "Linkedin", NA,
+  "H&CO Advisors", "Opening my Future with SAP Business One", "2021", NA, NA,
+)
+
+skills<- tribble(
+  ~area, ~skills, ~detail,
+  "Finance","Financial Advisor","Financial Statement Analysis",
+  "Finance","Financial Advisor","Financial Strategy",
+  "Finance","Financial Advisor","Analysis and Evaluation of Projects",
+  "Finance","Financial Advisor","Model CAPM",
+  "Finance","Financial Advisor"," Analysis and design of investment portfolios",
+  "Finance","Financial Advisor"," Use of Thinkorswim platform ",
+  
+  "Audit","Independent Audit","Preplanning",
+  "Audit","Independent Audit","Planning",
+  "Audit","Independent Audit","Design and Execution",
+  "Audit","Independent Audit","Completion and Reporting",
+  
+  "Accountingt","Complete Accounting","Opening",
+  "Accountingt","Complete Accounting","Development",
+  "Accountingt","Complete Accounting","Closing",
+  
+  "Tax","Tax Advice","Declaration small contributor",
+  "Tax","Tax Advice","Normal taxpayer",
+  
+  "ERP","Financial area", "SAP Bussines One (Fundamental)",
+  "ERP","Financial area", " Dynamics 365 (Fundamental)",
+  
+  "Programming Languages","Data Science", "R, Rstudio, Tidyverse, Rmarkdown,Github",
+  "Data Viz","Data visualization", "Power BI, Tablaeu, Google Data Studio",
+  
+  "Microsoft Office","Packages" ,"Excel, PowerPoint, Word, Outlook, OneNote",
+  
+  "GSuit","Google Workspace","Mail, Meet, Doc, Sheet, Slide, Google Space, Calendar, Forms ",
+  
+  "Notion","Project Management and Note Taking","Project Management Templates, Note,Productivity ",
+  
+  
+)
+Language <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "Language", "Spanish", "Hight", NA ,NA,
+  NA, "English", "Intermediate",NA ,NA,
+)
+
+Members <- tribble(
+  ~area, ~accomplishment, ~year, ~where, ~detail,
+  "College of Public Accountants of Guatemala", "Active member No. 11954", "2019->2022", "Guatemala" ,NA,
+  "Auditool", "Subscribed", " 2021->2022" ,"Colombia" ,NA,
+)
+
+edu <- tribble(
+  ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
+  "Rafael Landívar Unversity", 2019, 2021, "Master's in Finance", "Quetzaltenago-Guatemala",NA,
+  "Rafael Landívar Unversity", 2015, 2019, "Bachelor Of Public Accounting and Auditing", "Quetzaltenango-Guatemala",
+  "Magna Cum Laude",
+  "Colegio De La Salle", 2012, 2014, "Expert Accountant with Computer Orientation", "Huehuetenango-Guatemala",NA,
+ 
+)
+
+work <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Consultant" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Finance      ---> Financial Advisor",
+  "Consultant" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Audit        ---> Independent Audit ",
+  "Consultant" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Accounting   ---> Complete Accounting",
+  "Consultant" ,"Independent Services","January",   2022, "Present", NA, "Quetzaltenango - Guatemala",
+  "Tax          ---> Tax Advice",
+  
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Reporting and distribution of reports ---> Weekly reports of quarterly and annual contractual and process goals",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Insight Analytics ---> Review and extraction of knowledge in database, create specific reports with Rmarkdown in R.",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Data entry and consolidation ---> weekly data entry and consolidation and association form entry.",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Document archiving ---> Document archiving to support indicators",
+  "Data Analytics", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Main tools ---> R, Tidyverse, Rmarkdown, Rstudio, Excel, Sheet, PowerPoint, Github ",
+)

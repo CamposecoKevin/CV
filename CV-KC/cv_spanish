@@ -15,7 +15,7 @@ skills<- tribble(
   "Finanzas","Asesor Financiero","Estrategia Financiera",
   "Finanzas","Asesor Financiero","Análisis y Evaluación de Proyectos",
   "Finanzas","Asesor Financiero","Modelo CAPM",
-  "Finanzas","Asesor Financiero","Análisis y Diseño de Carteras de Inversión",
+  "Finanzas","Asesor Financiero","Análisis y diseño de carteras de inversión",
   
   "Auditoría","Auditor Independientes","Preplanificación",
   "Auditoría","Auditor Independientes","Planificación",
@@ -29,7 +29,7 @@ skills<- tribble(
   "Impuestos","Asesor Fiscal","Pequeños Contribuyente",
   "Impuestos","Asesor Fiscal","Contribuyente Normal",
   
-  "ERP","Área Financiera", "SAP Bussines One (Fundamental)",
+  "ERP","Área Finaciera", "SAP Bussines One (Fundamental)",
   "ERP","Área Financiera", " Dynamics 365 (Fundamental)",
   
   "Lenguaje de Programación","Ciencia de Datos", "R, Rstudio, Tidyverse, Rmarkdown,Github",
@@ -45,15 +45,14 @@ skills<- tribble(
 )
 Language <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Español", NA, NA, "Alto" ,NA,
-  "Inglés", NA, NA, "Intermedio" ,NA,
-  
+  "Idioma", "Españo", "Alto", NA ,NA,
+  NA, "Inglés", "Intermedio",NA ,NA,
 )
 
 Members <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Colegio de Contadores Públicos y Auditores", "Miembro Activo NO. 11954", "2019->Presente", "Guatemala" ,NA,
-  "Auditool", "Suscrito", "2021->Presente" ,"Colombia" ,NA,
+  "Colegio de Contadores Públicos y Auditores", "Miembro Activo NO. 11954", "2019->2022", "Guatemala" ,NA,
+  "Auditool", "Suscrito", "2021->2022" ,"Colombia" ,NA,
 )
 
 edu <- tribble(
@@ -76,14 +75,144 @@ work <- tribble(
   "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
   "Impuestos          --- Asesor Fiscal",
   
+  "Analisis de Datos", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
+  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales contractuales y de procesos",
   "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales",
+  "Conocimiento en los Datos --- Review and extracion of knowlodge in database, create specif repots with Rmarkdown in R",
   "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Conocimiento en los Datos --- Revisión y extracción de conocimientos en la base de datos, creación de repotes específicos con Rmarkdown",
+  "Entrada y consolidación de datos- Entrada y consolidación quincenal de datos y entrada de formularios de asociación",
   "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Entrada y consolidación de datos--- Entrada y consolidación quincenal de datos y entrada de formularios de asociación",
+  "Archivo de documentos - Archivo de documentos para apoyar los indicadores",
   "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Archivo de documentos --- Archivo de documentos que soporta los indicadores",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Herramienas principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
+  "Herramienas Principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
 )
+
+
+-------------------------
+Versión English
+
+--- 
+name: Kevin 
+surname: Camposeco
+position: "Consultant"
+address: "Quetzaltenango, Guatemala"
+profilepic: "./img/me.jpg"
+#www: "kevincamposeco.com"
+phone: "(+502) 51692471"
+email: "harlicamposeco@gmail.com"
+github: camposecokevin
+linkedin: camposecokevin
+twitter: camposecokevin
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000 #414141
+aboutme: "I am passionate about new technologies; such as data science, and capital markets.  I have set a goal to be a Data-Driven CFO, to make data-driven decisions, and CFA to have international skills for investment portfolio management."
+docname: CV/Resumé
+output: vitae::awesomecv
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+#source(file = here("r","data.r"))
+library(vitae)
+```
+
+```{r Cargar Datos}
+source("r/data.r", encoding = "UTF-8")
+```
+
+# Employment
+
+```{r EMPLOYMENT}
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Education
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Certifications
+```{r CERTIFICATIONS}
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+# Members
+```{r MEMBERS}
+Members %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+\pagebreak
+
+# Language
+```{r LANGUAGE}
+Language %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+
+
+# Skills
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills,
+    why = detail,
+  )
+```
+
+
+
+
+
