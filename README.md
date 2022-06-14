@@ -16,8 +16,6 @@ This CV is created using the **`R`** Package [`vitae`](https://github.com/mitche
 >
 > --- 
 
----
-
 ## Why
 
 Task automation is a necessity, especially when looking to make data-driven decisions. And that's what I did with a my CV, I needed a CV that I could easily update, and that was easily accessible when I needed it.
