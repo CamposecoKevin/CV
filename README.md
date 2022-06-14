@@ -1,5 +1,5 @@
 [![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
-# My Data Driven CV
+# My RESUMÉ
 
 ## What
 
@@ -9,27 +9,18 @@ This CV is created using the **`R`** Package [`vitae`](https://github.com/mitche
 
 > _**Curriculum Vitae**_
 >
-> a short account of one's career and qualifications prepared typically by an applicant for a position
+> A brief summary of my resume to apply for a position. 
 >
-> --- Merriam Webster's Dictionary
+> --- 
 
 ---
 
-
 ## Why
 
-Automation eases how much manual work needs to be performed on any particular task. As developers, programmers, software engineers, etc. our skills are put to good use when we automate manual work for the betterment of others, and ourselves.
-
-I needed a CV that i can easily update, gets out of my way, and is easily accessible when i need it.
+Task automation is a necessity, especially when looking to make data-driven decisions. And that's what I did with a my CV, I needed a CV that I could easily update, and that was easily accessible when I needed it.
 
 ## How
 
-This document utilizes **RMarkdown** and is compiled through pandoc.
+This document was compiled in the Rmarkdown environment, using the pandoc library.
 
-I use various other packages with `vitae` such as `here`, `tibble`, `glue`, and `magrittr` (for the pipe _`%>%`_)
-
-With RStudio i read in my _tribbles_ contained in the `data.r` script containing all my data, then using the `vitae` functions and `glue` string literals, i create the document itself.
-
-Data exists in in the `data.r` file in the `r/` directory and is added to the CV when the script is sourced by the `RMarkdown` document in the main directory.
-
-The header portion of the document is comprised in the `YAML` portion of the `RMarkdown` document.
+And in thanks to Bryan Jenks, I leave his cv repository (https://github.com/tallguyjenks/CV) for you to review, it was a great help in the creation of my own cv.
