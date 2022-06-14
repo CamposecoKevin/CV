@@ -1,7 +1,7 @@
 [![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
 # My RESUMÉ
-![English version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
-![Spanish version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_Español.pdf)
+[English version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
+[Spanish version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_Español.pdf)
 
 
 ## What
