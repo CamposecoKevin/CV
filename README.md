@@ -21,6 +21,6 @@ Task automation is a necessity, especially when looking to make data-driven deci
 
 ## How
 
-This document was compiled in the Rmarkdown environment, using the pandoc library.
+This document was compiled in the **Rmarkdown** environment, using the pandoc library.
 
-And in thanks to Bryan Jenks, I leave his cv repository (https://github.com/tallguyjenks/CV) for you to review, it was a great help in the creation of my own cv.
+And in thanks to Bryan Jenks, I leave his cv repository https://github.com/tallguyjenks/CV for you to review, it was a great help in the creation of my own cv.
