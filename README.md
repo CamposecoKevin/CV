@@ -1,4 +1,4 @@
-![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)
+[![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
 # My Data Driven CV
 
 ## What
