@@ -1,92 +1,123 @@
-certifications <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Banco Interamericano de Desarrollo", "Gestión del cambio en las organizaciones-INDES", "2022",
-  "Linkedin", NA,
-  "LinkedIn Learning", "Desarrollar sus habilidades de gestión de proyectos", "2022",
-  "Linkedin", NA,
-  "LinkedIn Learning", "Conozca Microsoft Dynamics 365 Finance", "2022",
-  "Linkedin", NA,
-  "H&CO Advisors", "Abriendo mi futuro con SAP Business One", "2021", NA, NA,
-)
+--- 
+name: Kevin 
+surname: Camposeco
+position: "Consultor"
+address: "Quetzaltenango, Guatemala"
+profilepic: "./img/me.jpg"
+#www: "kevincamposeco.com"
+phone: "(+502) 51692471"
+email: "harlicamposeco@gmail.com"
+github: camposecokevin
+linkedin: camposecokevin
+twitter: camposecokevin
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000 #414141
+aboutme: "Soy una persona apasionada por las nuevas tecnologías; como la ciencia de los datos, y los mercados de capitales.  Me he trazado el objetivo de ser un CFO Data-Driven, para tomar decisiones basadas en datos y CFA para tener habilidades internacionales para la gestión de cartera de inversiones."
+docname: CV/Resumé
+output: vitae::awesomecv
+---
 
-skills<- tribble(
-  ~area, ~skills, ~detail,
-  "Finanzas","Asesor Financiero","Análisis de Estados Financieros",
-  "Finanzas","Asesor Financiero","Estrategia Financiera",
-  "Finanzas","Asesor Financiero","Análisis y Evaluación de Proyectos",
-  "Finanzas","Asesor Financiero","Modelo CAPM",
-  "Finanzas","Asesor Financiero","Análisis y diseño de carteras de inversión",
-  
-  "Auditoría","Auditor Independientes","Preplanificación",
-  "Auditoría","Auditor Independientes","Planificación",
-  "Auditoría","Auditor Independientes","Diseño y Ejecución",
-  "Auditoría","Auditor Independientes","Finalización e Informe",
-  
-  "Contabilidad","Contabilidad Completa","Apertura",
-  "Contabilidad","Contabilidad Completa","Desarrollo",
-  "Contabilidad","Contabilidad Completa","Cierre",
-  
-  "Impuestos","Asesor Fiscal","Pequeños Contribuyente",
-  "Impuestos","Asesor Fiscal","Contribuyente Normal",
-  
-  "ERP","Área Finaciera", "SAP Bussines One (Fundamental)",
-  "ERP","Área Financiera", " Dynamics 365 (Fundamental)",
-  
-  "Lenguaje de Programación","Ciencia de Datos", "R, Rstudio, Tidyverse, Rmarkdown,Github",
-  "Data Viz","Visualización de Datos", "Power BI, Tablaeu, Google Data Studio, Shiny",
-  
-  "Microsoft Office","Packages" ,"Excel, PowerPoint, Word, Outlook, OneNote",
-  
-  "GSuit","Google Workspace","Mail, Meet, Doc, Sheet, Slide, Google Space, Calendar, Formularios ",
-  
-  "Notion","Gestión de proyectos y toma de notas","Plantillas de gestión de proyectos, Notas,Productividad ",
-  
-  
-)
-Language <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Idioma", "Españo", "Alto", NA ,NA,
-  NA, "Inglés", "Intermedio",NA ,NA,
-)
 
-Members <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Colegio de Contadores Públicos y Auditores", "Miembro Activo NO. 11954", "2019->2022", "Guatemala" ,NA,
-  "Auditool", "Suscrito", "2021->2022" ,"Colombia" ,NA,
-)
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
-edu <- tribble(
-  ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-  "Universidad Rafael Landívar", 2019, 2021, "Maestría en Finanzas", "Quetzaltenago-Guatemala",NA,
-  "Universidad Rafael Landívar", 2015, 2019, "Contaduría Pública y Auditoría", "Quetzaltenango-Guatemala",
-  "Magna Cum Laude",
-  "Colegio De La Salle", 2012, 2014, "Perito Contador con Orientación en Computación", "Huehuetenango-Guatemala",NA,
-  
-)
+require(xfun)
 
-work <- tribble(
-  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Finanzas      --- Asesor Financiero",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Auditoría        ---Auditor Independiente ",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Contabilidad   --- Contabilidad Completa",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Impuestos          --- Asesor Fiscal",
-  
-  "Analisis de Datos", "Agropecuaria Popoyan", "December", 2018, "Present", NA, "Quetzaltenango - Guatemala",
-  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales contractuales y de procesos",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Conocimiento en los Datos --- Review and extracion of knowlodge in database, create specif repots with Rmarkdown in R",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Entrada y consolidación de datos- Entrada y consolidación quincenal de datos y entrada de formularios de asociación",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Archivo de documentos - Archivo de documentos para apoyar los indicadores",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre", 2018, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Herramienas Principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
-)
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
 
+xfun::pkg_attach2(packages, message = FALSE)
+
+#source(file = here("r","data.r"))
+library(vitae)
+```
+
+```{r Cargar Datos}
+source("r/data.r", encoding = "UTF-8")
+```
+
+# Experiencia Laboral
+```{r EMPLOYMENT}
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Educación
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Certificaciones
+```{r CERTIFICATIONS}
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+# Miembro
+```{r MEMBERS}
+Members %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+
+\pagebreak
+
+# Idioma
+```{r LANGUAGE}
+Language %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+
+
+# Habilidades
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills,
+    why = detail,
+  )
+```
 
 -------------------------
 Versión English
