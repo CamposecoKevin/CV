@@ -1,7 +1,7 @@
 --- 
 name: Kevin 
 surname: Camposeco
-position: "Consultor"
+position: "Analista MECLA"
 address: "Quetzaltenango, Guatemala"
 profilepic: "./img/me.jpg"
 #www: "kevincamposeco.com"
@@ -91,7 +91,6 @@ Members %>%
     where = where
   )
 ```
-
 
 \pagebreak
 
