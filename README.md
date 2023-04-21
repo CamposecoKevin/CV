@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 [![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
 # My RESUMÉ
 ### [English version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)

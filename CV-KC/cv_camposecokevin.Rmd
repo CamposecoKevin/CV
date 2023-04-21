@@ -1,7 +1,7 @@
 --- 
 name: Kevin 
 surname: Camposeco
-position: "Consultor"
+position: "Analista MECLA"
 address: "Quetzaltenango, Guatemala"
 profilepic: "./img/me.jpg"
 #www: "kevincamposeco.com"
@@ -14,7 +14,7 @@ date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000 #414141
 aboutme: "Soy una persona apasionada por las nuevas tecnologías; como la ciencia de los datos, y los mercados de capitales.  Me he trazado el objetivo de ser un CFO Data-Driven, para tomar decisiones basadas en datos y un CFA para tener habilidades internacionales para la gestión de cartera de inversiones."
 docname: CV/Resumé
-output: vitae::awesomecv
+output: vitae::awesomecv  
 ---
 
 
