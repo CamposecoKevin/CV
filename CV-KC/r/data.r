@@ -1,56 +1,55 @@
 certifications <- tribble(
-  ~area, ~accomplishment, ~year, ~where, ~detail,
-  "Higher Finance Institute", "Modelaje Financiero", "2023",
-  "Higher Finance Institute", NA,
-  "Banco Interamericano de Desarrollo", "Gestión del cambio en las organizaciones-INDES", "2022",
-  "Linkedin", NA,
-  "LinkedIn Learning", "Desarrollar sus habilidades de gestión de proyectos", "2022",
-  "Linkedin", NA,
-  "LinkedIn Learning", "Conozca Microsoft Dynamics 365 Finance", "2022",
-  "Linkedin", NA,
+  ~area,~accomplishment, ~year, ~where, ~detail,
+  "Higher Finance Institute", "Modelaje Financiero","Higher Finance Institute","2023",NA,
+  "Banco Interamericano de Desarrollo","Gestión del cambio en las organizaciones-INDES","2022","Linkedin", NA,
+  "LinkedIn Learning", "Desarrollar sus habilidades de gestión de proyectos", "2022","Linkedin", NA,
+  #"LinkedIn Learning", "Conozca Microsoft Dynamics 365 Finance", "2022",
+  #"Linkedin", NA,
   "Platzi", "Curso profesional de GIT Y GITHUB", "2022", "Platzi", NA,
   "Platzi", "Curso de Análisis de datos con POWER BI", "2022", "Platzi", NA,
-  "H&CO Advisors", "Abriendo mi futuro con SAP Business One", "2021", NA, NA,
+  #"H&CO Advisors", "Abriendo mi futuro con SAP Business One", "2021", NA, NA,
   "Platzi", "Principios de visualización de datos BI", "2021", "Platzi", NA,
   "Platzi", "Business intelligence con power BI", "2021", "Platzi", NA,
   "Platzi", "Curso profesional de SCRUM", "2021", "Platzi", NA,
-  "Platzi", "Gestión de Equipos ágiles", "2021", "Platzi", NA,
-  "Johns Hopkins", "The data Scientist´s toolbox", "2020", "Coursera", NA,
-  "Johns Hopkins", "R Programming", "2020", "Coursera", NA,
-  "Johns Hopkins", "Getting and Cleaning Data", "2020", "Coursera", NA,
+  #"Platzi", "Gestión de Equipos ágiles", "2021", "Platzi", NA,
+  "Jhons Hopkins", "The data Scientist´s toolbox, R Programming, Getting and Cleaning Data ", "2020", "Coursera", NA,
+  #"Jhons Hopkins", "", "2020", "Coursera", NA,
+  #"Jhons Hopkins", "Getting and Cleaning Data", "2020", "Coursera", NA,
 )
 
 skills<- tribble(
-  ~area, ~skills, ~detail,
-  "Lenguaje de Programación","Ciencia de Datos", "R, Rstudio, Tidyverse, Rmarkdown,Github",
-  "Data Viz","Visualización de Datos", "Power BI, Tablaeu, Google Data Studio, Shiny",
+  ~skills, ~detail,
+  "Lenguaje de programación", "R, Rstudio, Tidyverse, Rmarkdown,Github",
+  #"Lenguaje de Programación",
+  "Data Viz", "Power BI, Tablaeu, Looker Studio",
+  #"Data Viz",
+  #"Microsoft Office",
+  "Microsoft Office" ,"Excel(Tablas dinamicas, power query), PowerPoint, Word, Outlook, OneNote",
+  #"GSuit",
+  "GSuit","Mail, Meet, Doc, Sheet, Slide, Google Space, Calendar, Formularios ",
+  #"Notion",
+  "Notion","Plantillas de gestión de proyectos, Notas, Productividad ",
   
-  "Microsoft Office","Packages" ,"Excel, PowerPoint, Word, Outlook, OneNote",
-  
-  "GSuit","Google Workspace","Mail, Meet, Doc, Sheet, Slide, Google Space, Calendar, Formularios ",
-  
-  "Notion","Gestión de proyectos y toma de notas","Plantillas de gestión de proyectos, Notas,Productividad ",
-  
-  "Finanzas","Asesor Financiero","Análisis de Estados Financieros",
-  "Finanzas","Asesor Financiero","Estrategia Financiera",
-  "Finanzas","Asesor Financiero","Análisis y Evaluación de Proyectos",
-  "Finanzas","Asesor Financiero","Modelo CAPM",
-  "Finanzas","Asesor Financiero","Análisis y Diseño de Carteras de Inversión",
-  
-  "Auditoría","Auditor Independientes","Preplanificación",
-  "Auditoría","Auditor Independientes","Planificación",
-  "Auditoría","Auditor Independientes","Diseño y Ejecución",
-  "Auditoría","Auditor Independientes","Finalización e Informe",
-  
-  "Contabilidad","Contabilidad Completa","Apertura",
-  "Contabilidad","Contabilidad Completa","Desarrollo",
-  "Contabilidad","Contabilidad Completa","Cierre",
-  
-  "Impuestos","Asesor Fiscal","Pequeños Contribuyente",
-  "Impuestos","Asesor Fiscal","Contribuyente Normal",
-  
-  "ERP","Área Financiera", "SAP Bussines One (Fundamental)",
-  "ERP","Área Financiera", " Dynamics 365 (Fundamental)",
+  "Finanzas","Análisis de Estados Financieros, Análisis y Evaluación de Proyectos, Modelo CAPM",
+  #"Finanzas","Estrategia Financiera",
+  #"Finanzas","Análisis y Evaluación de Proyectos",
+  #"Finanzas","Modelo CAPM",
+  #"Finanzas","Análisis y Diseño de Carteras de Inversión",
+  "Auditoría","Preplanificación, Planificación, Diseño y Ejecución, Finalización e Informe ",
+  #"Auditoría","Planificación",
+  #"Auditoría","Diseño y Ejecución",
+  #"Auditoría","Finalización e Informe",
+  #"Contabilidad",
+  "Contabilidad","Apertura, Desarrollo, Cierre",
+  #"Contabilidad","Contabilidad Completa","Desarrollo",
+  #"Contabilidad","Contabilidad Completa","Cierre",
+  #"Impuestos",
+  "Impuestos","Pequeños Contribuyente,Contribuyente Normal ",
+  #"Impuestos","Asesor Fiscal","Contribuyente Normal",
+ #"ERP",
+  "ERP Área Financiera", "SAP Bussines One (Fundamental)",
+ # "ERP",
+  "ERP Área Financiera", " Dynamics 365 (Fundamental)",
   
 )
 Language <- tribble(
@@ -63,7 +62,7 @@ Language <- tribble(
 Members <- tribble(
   ~area, ~accomplishment, ~year, ~where, ~detail,
   "Colegio de Contadores Públicos y Auditores", "Miembro Activo NO. 11954", "2019->Presente", "Guatemala" ,NA,
-  "Auditool", "Suscrito", "2021->2022" ,"Colombia" ,NA,
+  #"Auditool", "Suscrito", "2021->2022" ,"Colombia" ,NA,
 )
 
 edu <- tribble(
@@ -77,48 +76,55 @@ edu <- tribble(
 
 work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Finanzas      --- Asesor Financiero",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Auditoría        ---Auditor Independiente ",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Contabilidad   --- Contabilidad Completa",
-  "Consultor" ,"Servicios Independientes","Enero",   2022, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Impuestos          --- Asesor Fiscal",
   
-  "Analista MECLA", "Agropecuaria Popoyan", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Conocimiento en los Datos --- Revisión y extracción de conocimientos en la base de datos",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Entrada y consolidación de datos--- Entrada y consolidación quincenal de datos y entrada de formularios",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Archivo de documentos --- Archivo de documentos que soporta los indicadores",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
-  "Herramienas principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
+  "Analista MECLA", "Agropecuaria Popoyán-PROINNOVA", "Marzo", 2023, "Presente", NA , "Quetzaltenango - Guatemala",
+  "Elaboración, actualización, distribución, de reportes y seguimiento de indicadores --- encargado de elaborar, que consiste en crear un formato de reporte
+  donde se plasma los indicadores. La actualización, en mantener el reporte con información más reciente. La distribución, en enviar
+  el reporte a la parte interesada para la toma de decisión y seguimiento de indicadores, que consiste en hacer la comparación de las metas establecidas usando alertas para identificar
+  las metas que no se está cumpliendo.",
   
+  "Analista MECLA", "Agropecuaria Popoyán-PROINNOVA", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Seguimiento y cumplimiento de formularios de organizaciones--- encargado de recibir, ingresar, revisar y archivar los formularios de organizaciones de registro,
+  de aplicación de tecnología y de ventas.",
   
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre-Febrero", 2018, 2023, NA, "Quetzaltenango - Guatemala",
-  "Elaboración y Distribución de reportes --- Reportes semanales de metas trimestrales y anuales",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre-Febrero", 2018, 2023, NA, "Quetzaltenango - Guatemala",
-  "Conocimiento en los Datos --- Revisión y extracción de conocimientos en la base de datos",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre-Febrero", 2018, 2023, NA, "Quetzaltenango - Guatemala",
-  "Entrada y consolidación de datos--- Entrada y consolidación quincenal de datos y entrada de formularios de asociación",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre-Febrero", 2018, 2023, NA, "Quetzaltenango - Guatemala",
-  "Archivo de documentos --- Archivo de documentos que soporta los indicadores",
-  "Análisis de Datos", "Agropecuaria Popoyan", "Diciembre-Febrero", 2018, 2023, NA, "Quetzaltenango - Guatemala",
-  "Herramienas principales --- R, Tidyverse, Rmarkdown, Rstudio, Excel,Sheet, PowerPoint, Github ",
+  "Analista MECLA", "Agropecuaria Popoyán-PROINNOVA", "Marzo", 2023, "Presente", NA , "Quetzaltenango - Guatemala",
+  "Creación de data VIZ --- apoyar otras solicitudes para la creación de visualización de datos.",
   
-  "Digitador-Consultor", "Agropecuaria Popoyan", "Julio-Diciembre", 2018, "2018", NA, "Quetzaltenango - Guatemala",
-  "Ingreso y almacenamiento --- Ingreso de formulario de regristro de Parcelas Demostrativas, Replicas, Aplicación de tecnología, ventas,",
-  "Digitador-Consultor", "Agropecuaria Popoyan", "Julio-Diciembre", 2018, "2018", NA, "Quetzaltenango - Guatemala",
-  "Formularios de organización --- ingreso de formularios en Plaforma AGRIMEL de organizaciones", 
-  "Digitador-Consultor", "Agropecuaria Popoyan", "Julio-Diciembre", 2018, "2018", NA, "Quetzaltenango - Guatemala",
-  "Reportes --- Envío de información actualizada de avance de indicadores",
-  "Digitador- Consultor", "Agropecuaria Popoyan", "Julio-Diciembre", 2018, "2018", NA, "Quetzaltenango - Guatemala",
-  "Eventos --- Ingreso de actividades de capacitación y días de campo en google calendar",
+  "Analista MECLA", "Agropecuaria Popoyán-PROINNOVA", "Marzo", 2023, "Presente", NA, "Quetzaltenango - Guatemala",
+  "Soporte y Archivo de documentos--- seguimiento de solicitudes de técnicos de campo para actualizaciones de datos y archivo de documentos en físicos.",
+  
+
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Reportería --- encargado de actualizar y distribuir reportes semanales de avance de indicadores.",
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Manejo de Datos --- extracción y revisión de la información en la base de datos.",
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Ingreso de formularios --- ingresar formularios de registros, aplicación de tecnología, y ventas de organizaciones.",
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Creación de data VIZ --- apoyar a otras solicitudes en la creación de visualización de datos.",
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Soporte --- apoyar a técnicos de campos en brindar y dar seguimiento de solicitudes de información.",
+  
+  "Analista de Datos", "Agropecuaria Popoyán-PROINNOVA", "Diciembre", 2018, "Marzo", 2023, "Quetzaltenango - Guatemala",
+  "Archivo de documentos --- encargado de archivar los documentos en físicos.",
+  
+
   
   
+  "Consultor: Digitador", "Agropecuaria Popoyán-PROINNOVA", "Julio", 2018, "Diciembre", 2018, "Quetzaltenango - Guatemala",
+  "Ingreso, consolidación, validación de datos y archivo --- encargado de ingresar en plataformas como Survey, Agrimel y Google forms, formularios
+  que corresponden a Parcelas demostrativas, replicas, conservación de suelos, aplicación de tecnología,
+  hectáreas aplicando tecnología, y reporte de ventas de productores. Y formularios de registro, aplicación de tecnología y ventas de organizaciones.",
   
+  "Consultor: Digitador", "Agropecuaria Popoyán-PROINNOVA", "Julio", 2018, "Diciembre", 2018, "Quetzaltenango - Guatemala",
+  "Creación y seguimiento de reportes --- encargado de crear reportes y dar seguimiento a indicadores mensualmente.",
+  
+  "Consultor: Digitador", "Agropecuaria Popoyán-PROINNOVA", "Julio", 2018, "Diciembre", 2018, "Quetzaltenango - Guatemala",
+  "Ingreso y consolidación de eventos --- encargado de recibir y consolidar la programación de eventos de días de campo y capacitaciones, y ingresarlos en Google Calendar.", 
   
 )
