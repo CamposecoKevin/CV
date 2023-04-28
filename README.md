@@ -1,20 +1,21 @@
 [![](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/img/coverpage_Kevin.png)](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
-# My RESUMÉ
-### [English version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_English.pdf)
-### [Spanish version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/KevinCamposeco_Español.pdf)
+
+# MY CV
+This is my cv in spanish, you can get it below.
+
+**Curriculum Vitae**_
+> A brief summary of my resume to apply for a position. 
+### [Spanish version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/cv_camposecokevin.pdf)
 
 
 ## What
 
 This CV is created using the **`R`** Package [`vitae`](https://github.com/mitchelloharawild/vitae)
 
----
 
-> _**Curriculum Vitae**_
->
+**Curriculum Vitae**_
 > A brief summary of my resume to apply for a position. 
->
-> --- 
+ 
 
 ## Why
 
