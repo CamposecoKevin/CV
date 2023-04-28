@@ -3,7 +3,7 @@
 # MY CV
 This is my cv in spanish, you can get it below.
 
-**Curriculum Vitae**_
+**Curriculum Vitae**
 > A brief summary of my resume to apply for a position. 
 ### [Spanish version CV](https://github.com/CamposecoKevin/CV/blob/main/CV-KC/cv_camposecokevin.pdf)
 
@@ -11,11 +11,6 @@ This is my cv in spanish, you can get it below.
 ## What
 
 This CV is created using the **`R`** Package [`vitae`](https://github.com/mitchelloharawild/vitae)
-
-
-**Curriculum Vitae**_
-> A brief summary of my resume to apply for a position. 
- 
 
 ## Why
 
