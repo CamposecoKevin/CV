@@ -38,7 +38,7 @@ library(vitae)
 ```
 
 ```{r Cargar Datos}
-source("r/data.r", encoding = "UTF-8")
+source("r/data_cv_finance.R", encoding = "UTF-8")
 ```
 
 # Experiencia Laboral
@@ -80,7 +80,7 @@ Language %>%
   )
 ```
 
-\pagebreak
+
 # Miembro
 ```{r MEMBERS}
 Members %>%
@@ -93,6 +93,7 @@ Members %>%
   )
 ```
 
+\pagebreak
 # Certificaciones
 ```{r CERTIFICATIONS}
 certifications %>%
